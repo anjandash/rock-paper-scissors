@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <link rel="stylesheet" href="style.css">
+        <title>ROCK PAPER SCISSORS</title>
+        
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header" onclick="compare('dd')">
+                <!-- <p id="change">ROCK &#129704; PAPER &#128195; SCISSORS &#9986;&#65039;</p> -->
+                <p id="change">ROCK PAPER SCISSORS</p>
+            </div>
+            
+
+            <div class="section">
+                <div id="rock" class="choice color-rock">ROCK
+                    <div class="choice-type image-rock"></div>
+                </div>
+                <div id="paper" class="choice color-paper">PAPER
+                    <div class="choice-type image-paper"></div>
+                </div>
+                <div id="scissors" class="choice color-scissors">SCISSORS
+                    <div class="choice-type image-scissors"></div>
+                </div>
+            </div>
+
+            <div class="result">
+                <div id="comparison" class="comparison">Choose ROCK or PAPER or SCISSORS!
+                </div>
+
+                <div id="verdict" class="verdict">The Computer will also make a choice at the same time! 
+                </div>            
+            </div>    
+        </div>
+    </body>
+    <script src="./renderer.js"></script>
+</html>
