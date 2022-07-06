@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Retro';
+    src: url('fonts/Retro_Gaming.ttf') format('truetype');
+}
+
 *{
     margin: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Retro';
 }
 
 body{
@@ -78,18 +84,21 @@ body{
     background-color: #ec4c8c; 
     /* border: 1px solid #901043; */
     box-shadow: 0px 3px 2px #901043;
+    color: #901043;
 }
 
 .color-paper{
     background-color: #6b13ea; 
     /* border: 1px solid #2a075c; */
-    box-shadow: 0px 3px 2px #2a075c;    
+    box-shadow: 0px 3px 2px #2a075c;   
+    color: #2a075c; 
 }
 
 .color-scissors{
     background-color: #6fe71f; 
     /* border: 1px solid #4ea812; */
     box-shadow: 0px 3px 2px #4ea812;    
+    color: #2e630b;
 }
 
 .choice-type{
